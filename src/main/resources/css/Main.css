@@ -1,0 +1,107 @@
+.root {
+    -fx-background-color: #336699;
+    -fx-font-family: "Courier New", Courier, monospace;
+}
+
+#header {
+    -fx-padding: 25px 25px;
+}
+
+#main {
+    -fx-background-color: #FFFFFF;
+    -fx-background-radius: 5px;
+    -fx-padding: 0px;
+}
+
+#sidebar {
+    -fx-padding: 25px;
+}
+
+#leftbar {
+    -fx-padding: 10px;
+}
+
+#footer {
+    -fx-padding: 10px;
+}
+
+.button, .toggle-button {
+    -fx-min-width: 125px;
+    -fx-min-height: 40px;
+    -fx-text-fill: white;
+    -fx-background-color: black;
+    -fx-background-radius: 5px;
+    -fx-background-insets: 0;
+    -fx-border-width: 2px;
+    -fx-border-radius: 5px;
+    -fx-border-color: #FFFFFF;
+    -fx-font-weight: bold;
+    -fx-font-size: 20px;
+}
+
+.toggle-button:selected {
+    -fx-background-color: rgba(135, 222, 255, 0.9);
+    -fx-background-image: url("/icons/pause.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center center;
+}
+
+.button:hover {
+    -fx-background-color: rgba(135, 222, 255, 0.9);
+}
+
+.button:pressed {
+    -fx-translate-x: 1px;
+    -fx-translate-y: 2px;
+}
+
+#play {
+    -fx-background-image: url("/icons/play.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center center;
+}
+
+#pause {
+    -fx-background-image: url("/icons/pause.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center center;
+}
+
+#alert {
+    -fx-background-color: firebrick;
+}
+
+.timer {
+    -fx-min-width: 125px;
+    -fx-padding: 0px 20px;
+    -fx-text-fill: white;
+    -fx-background-color: black;
+    -fx-background-radius: 5px;
+    -fx-background-insets: 0;
+    -fx-border-width: 2px;
+    -fx-border-radius: 5px;
+    -fx-border-color: #FFFFFF;
+    -fx-alignment: center;
+    -fx-font-weight: bold;
+    -fx-font-size: 32px;
+}
+
+.tree-view {
+    -fx-background-color:transparent;
+    -fx-focus-color: transparent;
+    -fx-focus-faint-color: transparent;
+}
+
+.tree-cell {
+    -fx-font-family: Arial, Helvetica, sans-serif;
+    -fx-padding: 1px 0px 3px 0px;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-background-radius: 5px;
+    -fx-border-radius: 5px;
+}
+
+.tooltip {
+    -fx-background-color: black;
+    -fx-font-size: 18px;
+}
